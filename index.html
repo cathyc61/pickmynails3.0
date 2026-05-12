@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pick My Nails! 💅</title>
+  <!-- External CSS file -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+</head>
+
+<body>
+  <div class="floating-heart">♡</div>
+  <div class="floating-heart">♥</div>
+  <div class="floating-heart">♡</div>
+  <div class="floating-heart">♥</div>
+
+  <header>
+    <div class="badge"><i class="fa-regular fa-calendar"></i> Nails Appointment 15 May (Fri) 11:30</div>
+    <h1>Boss Duty <i class="fa-solid fa-heart"></i></h1>
+    <p class="subtitle">
+    Nails are getting long. It's time for a new set!
+    </p>
+  </header>
+
+  <main class="container">
+    <section class="styles-grid">
+      <article class="card">
+        <div class="image-wrap" onclick="openLightbox(0)">
+          <img src="https://i.imgur.com/1UruUy0.jpeg" alt="Elsa Vibe">
+          <span class="zoom-label"><i class="fa-solid fa-magnifying-glass-plus"></i>Zoom</span>
+        </div>
+        <div class="card-content">
+          <h2>Blue Frost French</h2>
+          <p>Blush pink base with icy blue tips and silver sparkle.</p>
+          <button class="card-select-btn" onclick="selectStyleOnly(event, 0)">
+          <i class="fa-solid fa-check"></i>
+          Select
+          </button>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="image-wrap" onclick="openLightbox(1)">
+          <img src="https://i.imgur.com/kiYghng.jpeg" alt="French Tip Classic Nails">
+          <span class="zoom-label"><i class="fa-solid fa-magnifying-glass-plus"></i>Zoom</span>
+        </div>
+        <div class="card-content">
+          <h2>Pearl Cloud Marble</h2>
+          <p>Glossy nude-pink with white marble tips and pearl flakes.</p>
+          <button class="card-select-btn" onclick="selectStyleOnly(event, 1)">
+          <i class="fa-solid fa-check"></i>
+          Select
+          </button>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="image-wrap" onclick="openLightbox(2)">
+          <img src="https://i.imgur.com/D63KCAg.jpeg" alt="Red Romantic Nails">
+          <span class="zoom-label"><i class="fa-solid fa-magnifying-glass-plus"></i>Zoom</span>
+        </div>
+        <div class="card-content">
+          <h2>Rose Sugar Tips</h2>
+          <p>Sheer rosy nude cat eye with sparkly rose-gold glitter tips.</p>
+          <button class="card-select-btn" onclick="selectStyleOnly(event, 2)">
+          <i class="fa-solid fa-check"></i>
+          Select
+          </button>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="image-wrap" onclick="openLightbox(3)">
+          <img src="https://i.imgur.com/Z8mEPwV.jpeg" alt="Milky White Nails">
+          <span class="zoom-label"><i class="fa-solid fa-magnifying-glass-plus"></i>Zoom</span>
+        </div>
+        <div class="card-content">
+          <h2>Blush Lace Bows</h2>
+          <p>Soft pink cat eye with lace details and tiny white bows.</p>
+          <button class="card-select-btn" onclick="selectStyleOnly(event, 3)">
+          <i class="fa-solid fa-check"></i>
+          Select
+          </button>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="image-wrap" onclick="openLightbox(4)">
+          <img src="https://i.imgur.com/vB0azj8.jpeg" alt="Cute Floral Nails">
+          <span class="zoom-label"><i class="fa-solid fa-magnifying-glass-plus"></i>Zoom</span>
+        </div>
+        <div class="card-content">
+          <h2>Milky Shell Glow</h2>
+          <p>Beige-pink ombré set with embedded shell pieces.</p>
+          <button class="card-select-btn" onclick="selectStyleOnly(event, 4)">
+          <i class="fa-solid fa-check"></i>
+          Select
+          </button>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="image-wrap" onclick="openLightbox(5)">
+          <img src="https://i.imgur.com/kLawyGh.jpeg" alt="Sparkly Princess Nails">
+          <span class="zoom-label"><i class="fa-solid fa-magnifying-glass-plus"></i>Zoom</span>
+        </div>
+        <div class="card-content">
+          <h2>Cherry Blossom Veil</h2>
+          <p>Pink translucent  and blush base with sakura.</p>
+          <button class="card-select-btn" onclick="selectStyleOnly(event, 5)">
+          <i class="fa-solid fa-check"></i>
+          Select
+          </button>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <section class="bottom-confirm-section" id="bottomConfirmSection">
+  <p class="bottom-confirm-text">
+    Already know which one?
+  </p>
+
+  <button class="bottom-confirm-btn" onclick="chooseCurrentStyle(event)">
+    <i class="fa-solid fa-wand-magic-sparkles"></i>
+    Confirm 
+  </button>
+
+  <p class="bottom-selected-style" id="bottomSelectedStyle">
+    Tap "Select" on a style first, then confirm it here.
+  </p>
+</section>
+  
+  <footer>
+    Thank you for picking a nice one as always. <i class="fa-regular fa-face-grin-squint"></i>
+  </footer>
+  
+<!----- Lightbox ----->
+<div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+  <div class="lightbox-content">
+    <button class="close-btn" onclick="closeLightbox(event)"><i class="fa-solid fa-xmark fa-xs"></i></button>
+
+    <button class="nav-btn prev-btn" onclick="showPreviousStyle(event)"><i class="fa-solid fa-chevron-left fa-2xs"></i></button>
+    <button class="nav-btn next-btn" onclick="showNextStyle(event)"><i class="fa-solid fa-chevron-right fa-2xs"></i></button>
+
+    <img id="lightboxImage" src="" alt="Nail style preview">
+
+    <div class="style-count" id="styleCount"></div>
+    <div class="lightbox-caption" id="lightboxCaption"></div>
+    <div class="lightbox-description" id="lightboxDescription"></div>
+
+    <button class="choose-lightbox-btn" onclick="chooseCurrentStyle(event)">
+      <i class="fa-solid fa-wand-magic-sparkles"></i> This One
+    </button>
+  </div>
+</div>
+
+<!----- Confirmation ----->
+<div class="modal" id="confirmModal">
+  <div class="modal-card">
+    <div class="emoji">💅🏻💕</div>
+    <h2>Confirm your choice?</h2>
+    <p id="confirmText">
+      Grab my hands & admire the new set next time <i class="fa-regular fa-face-kiss-wink-heart"></i>
+    </p>
+    <div class="confirmed-choice-box">
+      <span class="confirmed-choice-label">Your choice:</span>
+      <strong id="modalSelectedStyleName">Style name here</strong>
+    </div>
+
+    <div class="modal-actions">
+      <a class="whatsapp-btn" id="whatsappBtn" href="#" target="_blank" rel="noopener">
+        Send on WhatsApp <i class="fa-brands fa-whatsapp"></i>
+      </a>
+      <button class="change-btn" onclick="closeConfirmModal()">
+        Choose again
+      </button>
+    </div>
+  </div>
+</div>
+
+
+<!----- External JavaScript file ----->
+<script src="script.js"></script>
+</body>
+</html>
