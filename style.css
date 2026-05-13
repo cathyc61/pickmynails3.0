@@ -189,7 +189,7 @@ h1 {
 /* Card Select Button */
 .card-select-btn {
   margin-top: 12px;
-  width: 60%;
+  width: 75%;
   border: none;
   border-radius: 999px;
   padding: 10px 14px;
@@ -617,12 +617,12 @@ footer {
   }
 
   .card-content h2 {
-    font-size: 16px;
+    font-size: 17px;
     margin-bottom: 6px;
   }
 
   .card-content p {
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.4;
   }
 
@@ -677,6 +677,6 @@ footer {
   }
 
   .bottom-confirm-btn {
-    width: 40%;
+    width: 50%;
   }
 }
