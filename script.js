@@ -28,7 +28,7 @@ const nailStyles = [
     image: "https://i.imgur.com/vB0azj8.jpeg"
   },
   {
-    name: "Cherry Blossom Veil",
+    name: "Sakura Veil",
     description: "Pink translucent and blush base with cherry sakura.",
     image: "https://i.imgur.com/kLawyGh.jpeg"
   }
