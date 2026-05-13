@@ -172,7 +172,7 @@ function chooseCurrentStyle(event) {
     const bottomSelectedStyle = document.getElementById("bottomSelectedStyle");
 
     if (bottomSelectedStyle) {
-      bottomSelectedStyle.textContent = "Please tap "Select" on a style first 💕";
+      bottomSelectedStyle.textContent = "Please pick a style first 💕";
     }
 
     return;
