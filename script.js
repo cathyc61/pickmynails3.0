@@ -1,12 +1,3 @@
-    /*
-      Replace this with your own WhatsApp number in international format.
-      Do not include +, spaces, or dashes.
-
-      Example:
-      Malaysia: 60123456789
-      Singapore: 6591234567
-      USA: 15551234567
-    */
 const yourWhatsAppNumber = "85260805756";
 
     
@@ -181,7 +172,7 @@ function chooseCurrentStyle(event) {
     const bottomSelectedStyle = document.getElementById("bottomSelectedStyle");
 
     if (bottomSelectedStyle) {
-      bottomSelectedStyle.textContent = "Please tap Select on a style first 💕";
+      bottomSelectedStyle.textContent = "Please tap "Select" on a style first 💕";
     }
 
     return;
