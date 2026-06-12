@@ -3,34 +3,34 @@ const yourWhatsAppNumber = "85260805756";
     
 const nailStyles = [
   {
-    name: "Blue Frost French",
-    description: "Blush pink base with icy blue tips and silver sparkle.",
-    image: "https://i.imgur.com/1UruUy0.jpeg"
+    name: "Soft Pink French",
+    description: "Sheer nude base and pale pink French tips.",
+    image: "https://i.imgur.com/J2ZPmYT.jpeg"
   },
   {
-    name: "Pearl Cloud Marble",
-    description: "Glossy nude-pink with white marble tips and pearl flakes.",
-    image: "https://i.imgur.com/kiYghng.jpeg"
+    name: "Silver Star Tips",
+    description: "Nude base with shimmering silver tips and stars.",
+    image: "https://i.imgur.com/xrYLcMd.jpeg"
   },
   {
-    name: "Rose Sugar Tips",
-    description: "Sheer rosy nude cat eye with sparkly rose-gold glitter tips.",
-    image: "https://i.imgur.com/D63KCAg.jpeg"
+    name: "White Blossom Lines",
+    description: "Sheer pink nails with delicate white flowers.",
+    image: "https://i.imgur.com/UGz3aHl.jpeg"
   },
   {
-    name: "Blush Lace Bows",
-    description: "Soft pink cat eye with lace details and tiny white bows.",
-    image: "https://i.imgur.com/Z8mEPwV.jpeg"
+    name: "Pink Shell Shine",
+    description: "Rosy shimmer, shell-like texture and flakes.",
+    image: "https://i.imgur.com/kXLBUrG.jpeg"
   },
   {
-    name: "Milky Shell Glow",
-    description: "Beige-pink ombré set with embedded shell pieces.",
-    image: "https://i.imgur.com/vB0azj8.jpeg"
+    name: "Glazed Rose Ombre",
+    description: "Soft pink-to-white ombré with rose glitter.",
+    image: "https://i.imgur.com/gQD9kHq.jpeg"
   },
   {
-    name: "Sakura Veil",
-    description: "Pink translucent and blush base with cherry sakura.",
-    image: "https://i.imgur.com/kLawyGh.jpeg"
+    name: "Pearl White French",
+    description: "Pearly pink base and white French tips.",
+    image: "https://i.imgur.com/vrALFwI.jpeg"
   }
 ];
 
