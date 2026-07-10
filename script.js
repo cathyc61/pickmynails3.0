@@ -3,26 +3,26 @@ const yourWhatsAppNumber = "85260805756";
     
 const nailStyles = [
   {
-    name: "Soft Pink French",
-    description: "Sheer nude base and pale pink French tips.",
-    image: "https://i.imgur.com/J2ZPmYT.jpeg"
+    name: "Strawberry Glass",
+    description: "Soft sheer pink nails with tiny strawberry accents. ",
+    image: "https://i.imgur.com/B75jdaP.jpeg"
   },
   {
-    name: "Silver Star Tips",
-    description: "Nude base with shimmering silver tips and stars.",
-    image: "https://i.imgur.com/xrYLcMd.jpeg"
+    name: "Blush Blossom",
+    description: "Pale pink almond nails with small pastel flower details.",
+    image: "https://i.imgur.com/VhHvsZX.jpeg"
   },
   {
-    name: "White Blossom Lines",
-    description: "Sheer pink nails with delicate white flowers.",
-    image: "https://i.imgur.com/UGz3aHl.jpeg"
+    name: "Pearl Pink French",
+    description: "Glossy nude-pink nails with pearl shimmer and a soft polished finish.",
+    image: "https://i.imgur.com/OxYXlol.jpeg"
   },
   {
     name: "Pink Shell Shine",
     description: "Rosy shimmer, shell-like texture and flakes.",
     image: "https://i.imgur.com/kXLBUrG.jpeg"
   },
-  {
+  /***** extra {
     name: "Glazed Rose Ombre",
     description: "Soft pink-to-white ombré with rose glitter.",
     image: "https://i.imgur.com/gQD9kHq.jpeg"
@@ -31,7 +31,7 @@ const nailStyles = [
     name: "Pearl White French",
     description: "Pearly pink base and white French tips.",
     image: "https://i.imgur.com/vrALFwI.jpeg"
-  }
+  } *****/
 ];
 
 let currentStyleIndex = null;
