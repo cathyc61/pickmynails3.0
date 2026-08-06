@@ -3,24 +3,24 @@ const yourWhatsAppNumber = "85260805756";
     
 const nailStyles = [
   {
-    name: "Strawberry Glass",
-    description: "Soft sheer pink nails with tiny strawberry accents. ",
-    image: "https://i.imgur.com/B75jdaP.jpeg"
+    name: "Petal Sheer",
+    description: "Nude-pink nails with soft floral accents and a natural look.",
+    image: "https://i.imgur.com/j91CbVZ.jpeg"
   },
   {
-    name: "Blush Blossom",
-    description: "Pale pink almond nails with small pastel flower details.",
-    image: "https://i.imgur.com/VhHvsZX.jpeg"
+    name: "Soft Glow",
+    description: "Sheer pink nails with a glossy finish and a tiny shimmer.",
+    image: "https://i.imgur.com/WXLrofo.jpeg"
   },
   {
-    name: "Pearl Pink French",
-    description: "Glossy nude-pink nails with pearl shimmer and a soft polished finish.",
-    image: "https://i.imgur.com/OxYXlol.jpeg"
+    name: "Pink Aurora",
+    description: "Iridescent pink nails with a shiny, light-catching effect.",
+    image: "https://i.imgur.com/IglDrUr.jpeg"
   },
   {
-    name: "Pink Shell Shine",
-    description: "Rosy shimmer, shell-like texture and flakes.",
-    image: "https://i.imgur.com/kXLBUrG.jpeg"
+    name: "Crystal Bloom",
+    description: "Clear, glossy nails with delicate white flower details.",
+    image: "https://i.imgur.com/gyMkraV.jpeg"
   },
   /***** extra {
     name: "Glazed Rose Ombre",
