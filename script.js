@@ -3,35 +3,35 @@ const yourWhatsAppNumber = "85260805756";
     
 const nailStyles = [
   {
-    name: "Petal Sheer",
-    description: "Nude-pink nails with soft floral accents and a natural look.",
-    image: "https://i.imgur.com/j91CbVZ.jpeg"
+    name: "Pink Glitter Tips",
+    description: "Soft pink nails with sparkly glitter French tips.",
+    image: "https://i.imgur.com/R2EWmqe.jpeg"
   },
   {
-    name: "Soft Glow",
-    description: "Sheer pink nails with a glossy finish and a tiny shimmer.",
-    image: "https://i.imgur.com/WXLrofo.jpeg"
+    name: "White Pearl French",
+    description: "Clean white French tips with a glossy, elegant finish.",
+    image: "https://i.imgur.com/SxAyEj3.jpeg"
   },
   {
-    name: "Pink Aurora",
-    description: "Iridescent pink nails with a shiny, light-catching effect.",
-    image: "https://i.imgur.com/IglDrUr.jpeg"
+    name: "Cherry Charm Nails",
+    description: "Sheer pink nails with tiny cherry designs.",
+    image: "https://i.imgur.com/BSt8Cou.jpeg"
   },
   {
-    name: "Crystal Bloom",
-    description: "Clear, glossy nails with delicate white flower details.",
-    image: "https://i.imgur.com/gyMkraV.jpeg"
+    name: "Cloud Pink Nails",
+    description: "Dreamy pink nails with soft flower and shimmer details.",
+    image: "https://i.imgur.com/7AMYI0U.jpeg"
   },
-  /***** extra {
-    name: "Glazed Rose Ombre",
-    description: "Soft pink-to-white ombré with rose glitter.",
-    image: "https://i.imgur.com/gQD9kHq.jpeg"
+  {
+    name: "Web Pink Nails",
+    description: "Pale pink nails with red spiderweb art.",
+    image: "https://i.imgur.com/VCAgAyU.jpeg"
   },
   {
     name: "Pearl White French",
     description: "Pearly pink base and white French tips.",
-    image: "https://i.imgur.com/vrALFwI.jpeg"
-  } *****/
+    image: "https://i.imgur.com/MaOhCPF.jpeg"
+  }
 ];
 
 let currentStyleIndex = null;
