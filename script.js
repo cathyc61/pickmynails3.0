@@ -3,9 +3,9 @@ const yourWhatsAppNumber = "85260805756";
     
 const nailStyles = [
   {
-    name: "Pink Glitter Tips",
-    description: "Soft pink nails with sparkly glitter French tips.",
-    image: "https://i.imgur.com/R2EWmqe.jpeg"
+    name: "Pearl French",
+    description: "Soft pink nails with sparkly light pink tips.",
+    image: "https://i.imgur.com/7QVHH1c.jpeg"
   },
   {
     name: "White Pearl French",
@@ -28,9 +28,9 @@ const nailStyles = [
     image: "https://i.imgur.com/VCAgAyU.jpeg"
   },
   {
-    name: "Pearl White French",
-    description: "Pearly pink base and white French tips.",
-    image: "https://i.imgur.com/MaOhCPF.jpeg"
+    name: "Rose Glow",
+    description: "Sheer pink nails with a shiny chrome finish.",
+    image: "https://i.imgur.com/S9zls6H.jpeg"
   }
 ];
 
