@@ -3,34 +3,34 @@ const yourWhatsAppNumber = "85260805756";
     
 const nailStyles = [
   {
-    name: "Pearl French",
-    description: "Soft pink nails with sparkly light pink tips.",
-    image: "https://i.imgur.com/7QVHH1c.jpeg"
+    name: "Yin‑Yang Ghosts",
+    description: "Nude base with cute tiny ghosts and star sparkles.",
+    image: "https://i.imgur.com/icQzndx.jpeg"
   },
   {
-    name: "White Pearl French",
-    description: "Clean white French tips with a glossy, elegant finish.",
-    image: "https://i.imgur.com/SxAyEj3.jpeg"
+    name: "Pink Pumpkin Glow",
+    description: "Pink glitter tips, framed gold accents and shimmery pumpkins.",
+    image: "https://i.imgur.com/ZSVXvzb.jpeg"
   },
   {
-    name: "Cherry Charm Nails",
-    description: "Sheer pink nails with tiny cherry designs.",
-    image: "https://i.imgur.com/BSt8Cou.jpeg"
+    name: "Ghostly Web",
+    description: "Nude base with white spiderwebs and playful ghost faces.",
+    image: "https://i.imgur.com/pdirlMI.jpeg"
+  },
+    {
+    name: "Gothic Blood Rose",
+    description: "Deep red ombré and white panels with blood‑splatter details.",
+    image: "https://i.imgur.com/Qkr9y5b.jpeg"
   },
   {
-    name: "Cloud Pink Nails",
-    description: "Dreamy pink nails with soft flower and shimmer details.",
-    image: "https://i.imgur.com/7AMYI0U.jpeg"
+    name: "Autumn Ghost Garden",
+    description: "Nude‑pink with tiny pumpkins, flowers and ghosts.",
+    image: "https://i.imgur.com/6A7WcYO.jpeg"
   },
   {
-    name: "Web Pink Nails",
-    description: "Pale pink nails with red spiderweb art.",
-    image: "https://i.imgur.com/VCAgAyU.jpeg"
-  },
-  {
-    name: "Rose Glow",
-    description: "Sheer pink nails with a shiny chrome finish.",
-    image: "https://i.imgur.com/S9zls6H.jpeg"
+    name: "Pink Goth Web",
+    description: "Shimmery baby‑pink base with black web tips and mini ghosts.",
+    image: "https://i.imgur.com/i0a2XiR.jpeg"
   }
 ];
 
