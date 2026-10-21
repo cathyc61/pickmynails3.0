@@ -8,9 +8,9 @@ const nailStyles = [
     image: "https://i.imgur.com/icQzndx.jpeg"
   },
   {
-    name: "Pink Pumpkin Glow",
-    description: "Pink glitter tips, framed gold accents and shimmery pumpkins.",
-    image: "https://i.imgur.com/ZSVXvzb.jpeg"
+    name: "Pearly Pink Halloween",
+    description: "Pink base topped with cute ghost, mummy wrap and spiderweb.",
+    image: "https://i.imgur.com/C6JJDec.jpeg"
   },
   {
     name: "Ghostly Web",
