@@ -3,34 +3,34 @@ const yourWhatsAppNumber = "85260805756";
     
 const nailStyles = [
   {
-    name: "Yin‑Yang Ghosts",
-    description: "Nude base with cute tiny ghosts and star sparkles.",
-    image: "https://i.imgur.com/icQzndx.jpeg"
+    name: "Winter Frost",
+    description: "Nude pink ombré with icy tips, snowflakes, and a cozy holiday feel.",
+    image: "https://i.imgur.com/eZ3puMO.jpeg"
   },
   {
-    name: "Pearly Pink Halloween",
-    description: "Pink base topped with cute ghost, mummy wrap and spiderweb.",
-    image: "https://i.imgur.com/C6JJDec.jpeg"
+    name: "Snowy Bows",
+    description: "Milky pink winter nails with snowflakes, bows, and soft sparkle.",
+    image: "https://i.imgur.com/Q4AThdn.jpeg"
   },
   {
-    name: "Ghostly Web",
-    description: "Nude base with white spiderwebs and playful ghost faces.",
-    image: "https://i.imgur.com/pdirlMI.jpeg"
+    name: "Monet Bloom",
+    description: "Elegant sheer nails with soft pastel florals and vintage-inspired art.",
+    image: "https://i.imgur.com/uy8KgCw.jpeg"
   },
     {
-    name: "Gothic Blood Rose",
-    description: "Deep red ombré and white panels with blood‑splatter details.",
-    image: "https://i.imgur.com/Qkr9y5b.jpeg"
+    name: "Rose Gold Sparkle",
+    description: "Rosy shimmer with delicate floral 3D accents and a glam glow.",
+    image: "https://i.imgur.com/Byld2tF.jpeg"
   },
   {
-    name: "Autumn Ghost Garden",
-    description: "Nude‑pink with tiny pumpkins, flowers and ghosts.",
-    image: "https://i.imgur.com/6A7WcYO.jpeg"
+    name: "Holiday Reindeer",
+    description: "Cute nude-pink nails with gold accents and festive snowflake details.",
+    image: "https://i.imgur.com/gVIOvV9.jpeg"
   },
   {
-    name: "Pink Goth Web",
-    description: "Shimmery baby‑pink base with black web tips and mini ghosts.",
-    image: "https://i.imgur.com/i0a2XiR.jpeg"
+    name: "Glazed Cat Eye",
+    description: "Soft pink shimmer with a glossy, dreamy pearl finish.",
+    image: "https://i.imgur.com/v5temP8.jpeg"
   }
 ];
 
